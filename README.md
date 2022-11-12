@@ -8,27 +8,33 @@ One of the most important problems in e-commerce is the correct calculation of t
 ## Dataset Story
 This dataset, which includes Amazon product data, includes product categories and various metadata. The product with the most reviews in the electronics category has user ratings and reviews.
 
-Features
-reviewerID: User ID
+## Features
 
-asin: Product ID
+reviewerID : User ID
 
-reviewerName: Username
+asin : Product ID
 
-Helpful: Useful evaluation rating
+reviewerName : Username
 
-reviewText: Evaluation
+Helpful : Useful evaluation rating
 
-overall: Product rating
+reviewText : Evaluation
 
-summary: Evaluation summary
+overall : Product rating
 
-unixReviewTime: Evaluation time
+summary : Evaluation summary
 
-reviewTime: Review time Raw
+unixReviewTime : Evaluation time
 
-day_diff: Number of days since evaluation
+reviewTime : Review time Raw
 
-helpful_yes: Number of times the review was found helpful
+day_diff : Number of days since evaluation
 
-total_vote: Number of votes given to the review
+helpful_yes : Number of times the review was found helpful
+
+total_vote : Number of votes given to the review
+
+
+* Total Features : 12
+* Total Row : 4915
+* CSV File Size : 71.9MB
